@@ -1,0 +1,11 @@
+<section class="center">
+  <a href = "#/songs/addSong"><h1>Create New Song</h1></a>
+  <br><br>
+  <div ng-repeat="song in songs | filter: songSearchText">
+    <a href="#/songs/{{ song.Id }}">
+     <h2> {{ song.name }}</h2></a>
+    <h4>Performed by {{song.artist}} on <thead></thead> album {{song.album}}.</h4>
+    <button ng-click="killMusic(song)">Remove</button>
+  </div>
+  
+<section>

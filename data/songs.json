@@ -1,0 +1,60 @@
+{
+    "songs": [
+
+        {
+            "Id": 1,
+            "name": "Smells Like Teen Spirit",
+            "artist": "Nirvana",
+            "album": "Nevermind"
+        },
+
+        {
+            "Id": 2,
+            "name": "Hey Jude",
+            "artist": "Beatles",
+            "album": "Hey Jude"
+        },
+
+        {
+            "Id": 3,
+            "name": "Crash",
+            "artist": "Dave Matthews Band",
+            "album": "Crash"
+        },
+
+        {
+            "Id": 4,
+            "name": "Hotel California",
+            "artist": "Eagles",
+            "album": "Eagles"
+        },   
+
+        {
+            "Id": 5,
+            "name": "Springstein",
+            "artist": "Eric Church",
+            "album": "Chief"
+        },
+    
+        {   
+            "Id": 6,
+            "name": "Legs",
+            "artist": "ZZTop",
+            "album": "Eliminator"
+        },
+    
+        {
+            "Id": 7,
+            "name": "The Logical Song",
+            "artist": "Supertramp",
+            "album": "Breakfast in America"
+        },
+    
+        {
+            "Id": 8,
+            "name": "Another Brick in the Wall",
+            "artist": " Pink Floyd",
+            "album": "The Wall"
+        }
+    ]
+}
