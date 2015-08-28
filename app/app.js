@@ -1,4 +1,4 @@
-var app = angular.module("MusicApp", ['ngRoute']);
+var app = angular.module("MusicApp", ['ngRoute', 'firebase']);
 
 app.config(['$routeProvider',
   function($routeProvider) {
@@ -18,4 +18,4 @@ app.config(['$routeProvider',
       otherwise({
         redirectTo: '/'
       });
-  }]);
+}]);
